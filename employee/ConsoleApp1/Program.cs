@@ -9,7 +9,8 @@ namespace ConsoleApp1
     class Employee
     {
         public int employeeID { get; set; }
-        string fname, lname, salary, tax;
+        string fname, lname;
+        int salary, tax;
         public string fName
         {
             get { return fname; }
